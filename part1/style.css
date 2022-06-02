@@ -1,0 +1,44 @@
+* {
+    font-family: cursive;
+    zoom: 105%;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+}
+
+#main {
+    border: 4px black solid;
+    width: 50%;
+    margin-top: 5%;
+}
+
+#right {
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+}
+
+#left {
+    margin-left: 5%
+}
+
+#title {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    height: 25px;
+    margin-left: 25px;
+    box-shadow: 4px 4px black;
+    background-color: rgb(235, 199, 0);
+    cursor: pointer;
+}
+
+#FillerText {
+    margin: 2%;
+}
